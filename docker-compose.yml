@@ -14,10 +14,10 @@ services:
     environment:
       - TZ=Europe/London
     networks:
-      - nginx-proxy-manager_default
+      - nginx-proxy-manager_default #same name as your nginx network
     healthcheck:
       disable: true
 
 networks:
-  nginx-proxy-manager_default:
+  nginx-proxy-manager_default: #same name as your nginx network
     external: true
