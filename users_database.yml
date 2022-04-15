@@ -1,20 +1,20 @@
 users:
   name1:
     displayname: "Name1"
-    password: "$argon2id$v=19$m=1024,t=1,p=8$NHpJSlV3NGkxWTh1bk1tZA$XM70hZFEk7hUBa9q+YQi4EBGNgXBZ4Mwv9kE9wBVKBs"  
+    password: "$argon2id$v=19$m=1024,t=1,p=8$NHpJSlV3NGkxWTh1bk1tZA$XM70hZFEk7hUBa9q+YQi4EBGNgXBZ4Mwv9kE9wBVKBs"  # make your own: https://argon2.online/
     email: name1@gmail.com
     groups:
       - admins
       - dev
   name2:
     displayname: "Name2"
-    password: "$argon2i$v=19$m=1024,t=1,p=8$UmhzS0FZWTFVWGR5a2dmcw$r3KGgwLrXiUcmLk20OF1MLauJ9RxJuCYTomU/IvlnIA"  
+    password: "$argon2id$v=19$m=1024,t=1,p=8$NHpJSlV3NGkxWTh1bk1tZA$XM70hZFEk7hUBa9q+YQi4EBGNgXBZ4Mwv9kE9wBVKBs"  # make your own: https://argon2.online/
     email: name2@gmail.com
     groups:
       - dev
   name3:
     displayname: "Name3"
-    password: "$argon2i$v=19$m=1024,t=1,p=8$UmhzS0FZWTFVWGR5a2dmcw$a721DaFxVMeOcKi90feEzF5yDBBYwdRHpld75n3J8Pg"  
+    password: "$argon2id$v=19$m=1024,t=1,p=8$NHpJSlV3NGkxWTh1bk1tZA$XM70hZFEk7hUBa9q+YQi4EBGNgXBZ4Mwv9kE9wBVKBs"  # make your own: https://argon2.online/
     email: name3@outlook.com
     groups:
       - dev
