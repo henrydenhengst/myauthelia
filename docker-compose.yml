@@ -1,0 +1,23 @@
+---
+version: '3.3'
+services:
+  authelia:
+    image: authelia/authelia
+    container_name: authelia
+    volumes:
+      - /docker/authelia/config:/config
+    ports:
+      - 9091:9091
+    expose:  
+      - 9091
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/London
+    networks:
+      - nginx-proxy-manager_default
+    healthcheck:
+      disable: true
+
+networks:
+  nginx-proxy-manager_default:
+    external: true
