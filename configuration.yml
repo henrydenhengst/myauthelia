@@ -34,7 +34,7 @@ authentication_backend:
   disable_reset_password: false
   refresh_interval: 5m
   file:
-    path: /docker/authelia/config/users_database.yml #this is where your authorized users are stored 
+    path: /config/users_database.yml #this is where your authorized users are stored 
     password:
       algorithm: argon2id
       iterations: 1
